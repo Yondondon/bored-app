@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.generateBtn {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 15px auto;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #542567;
+  color: #fff;
+  letter-spacing: 0.3em;
+  outline: none;
+}
+
+.generateBtn:active {
+  background-color: #7f5f90;
+}
+
+.participantsFilter label {
+  font-size: 14px;
+}
+
+.participantsFilter select {
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+  background: none;
+  padding: 2px 5px;
+}
+
+.activitiesListWrap {
+  border: 3px dotted #4B1858;
+  max-width: 350px;
+  margin: 0 auto;
+  background-color: #7f5f90;
+  color: #fff;
+  padding: 5px;
+}
+
+.appFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 12px;
+  border-top: 1px solid #000;
+  font-family: 'Consolas', sans-serif;
+}
